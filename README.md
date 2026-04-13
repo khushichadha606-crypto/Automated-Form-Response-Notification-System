@@ -1,40 +1,83 @@
-# Automated-Form-Response-Notification-System
-Project Overview
-This project demonstrates an end-to-end automation workflow that collects user responses from a Google Form, stores them in Google Sheets, and automatically sends a confirmation message via Gmail using n8n automation tool.
+# Automated Form Response Notification System
 
-Workflow Explanation
-1️. Data Collection – Google Forms
+##  Project Overview
+This project showcases an end-to-end automation workflow that captures user responses from a Google Form, stores them in Google Sheets, and automatically sends confirmation emails using the n8n automation platform.
 
-Users submit their details through a Google Form including: Name Email Address Phone Number
+---
 
-2️. Data Storage – Google Sheets
+## Workflow Explanation
 
-All responses are automatically stored in a connected Google Sheet with columns like:
+### 1. Data Collection – Google Forms  
+Users submit their information through a Google Form, including:
+- Name  
+- Email Address  
+- Phone Number  
 
-Timestamp Email Address Name Email Phone Number 3. Automation – n8n Workflow
+---
 
-Using n8n, an automated workflow is created:
+### 2. Data Storage – Google Sheets  
+All submitted responses are automatically recorded in a connected Google Sheet with fields such as:
+- Timestamp  
+- Name  
+- Email Address  
+- Phone Number  
 
-Trigger: Google Sheets Trigger activates when a new row is added Action: Sends an email using Gmail 4️. Email Notification – Gmail
+---
 
-Through Gmail, users receive an automated message like:
+### 3. Automation – n8n Workflow  
+An automated workflow is configured in n8n:
+- **Trigger:** Activated when a new response is added to Google Sheets  
+- **Action:** Sends an automated email via Gmail  
 
-"Hi [Name], Thank you for your feedback. Would you like to get notifications at this number [Phone Number]"
+---
 
-Tools & Technologies Used
-Google Forms Google Sheets n8n Gmail
+### 4. Email Notification – Gmail  
+Users receive a personalized confirmation email, for example:  
 
-Key Features
--Real-time data capture -Automated workflow execution -Instant email response system -No manual intervention required -Easy to scale and customize
+> "Hi [Name], thank you for your response. Would you like to receive notifications on this number [Phone Number]?"
 
-Use Cases
-Feedback collection systems HR onboarding automation Event registrations Customer engagement workflows
+---
 
-Learning Outcome
-Understanding workflow automation Integration of multiple tools Real-time trigger-based systems Practical use of no-code/low-code platforms
+## Tools & Technologies Used
+- Google Forms  
+- Google Sheets  
+- n8n (Automation Tool)  
+- Gmail  
 
-Future Enhancements
-Add WhatsApp notifications Use AI tools for personalized responses Dashboard for analytics Data filtering & segmentationAuthor
+---
 
-Author
-KHUSHI CHADHA
+## Key Features
+- Real-time data collection  
+- Fully automated workflow execution  
+- Instant email notifications  
+- No manual intervention required  
+- Easily scalable and customizable  
+
+---
+
+## Use Cases
+- Feedback collection systems  
+- HR onboarding automation  
+- Event registrations  
+- Customer engagement workflows  
+
+---
+
+## Learning Outcomes
+- Understanding workflow automation concepts  
+- Integration of multiple tools and platforms  
+- Working with real-time trigger-based systems  
+- Hands-on experience with no-code/low-code automation tools  
+
+---
+
+## Future Enhancements
+- Integration with WhatsApp notifications  
+- Use of AI for personalized responses  
+- Dashboard creation for analytics  
+- Advanced data filtering and segmentation  
+
+---
+
+## Author
+**KHUSHI CHADHA**
